@@ -1,0 +1,10 @@
+.env
+.venv
+zerozhell/*
+.dockeringore
+contrains.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
