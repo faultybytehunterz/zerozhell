@@ -5,13 +5,13 @@ def about():
     e_color = "\033[0m" if platform.system() != "Windows" else ""
     about = f"""{s_color}
     
-            Websploit Framework
-            Author : Fardin Allahverdinazhand
-            Contact : 0x0ptim0us[~A~]Gmail.Com
-            Twitter : @0x0ptim0us
-            Codename : Reborn
-            Project Github : https://github.com/websploit/websploit
-            Other Projects : https://github.com/0x0ptim0us
+            ZeroZhell Framework
+            Author : Calvin Ronksley
+            Contact : hexzhen3x7@blackzspace.de XOR blackzspace.de@outlook.de
+            Codename : Infinity
+            Github-Repo : https://github.com/faultybytehunterz/zerozhell
+            Organisation : https://github.com/faultybytehunterz
+            IRC: https://irc.blackzspace.de/+6679
             
     {e_color}"""
     print(about)
