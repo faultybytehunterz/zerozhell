@@ -1,2 +1,0 @@
-# ZEROZHELL COMMANDLINE # zerozhell
-# zerozhell

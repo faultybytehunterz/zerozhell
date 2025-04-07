@@ -1,5 +1,0 @@
-colorama
-requests
-scapy
-scrapy
-beautifulsoup4
