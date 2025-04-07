@@ -11,7 +11,7 @@ import subprocess
 from .mods import *
 from .mods import module_list, all_modules
 from .core.utils import logo, about, update
-
+from .configs.colors import *
 
 completions = module_list()
 
@@ -54,7 +54,10 @@ class MainCommandLine(cmd.Cmd):
 
 
 
-
+    def do_scan(self, line):
+        print("Start Network Scan!!!")
+        os.system("netstat -at")
+        
     
 
 
@@ -98,6 +101,9 @@ class MainCommandLine(cmd.Cmd):
         sys.exit(0)
         return True
     
+    
+    
+    
     def do_help(self, line):
         """Show help"""
         if line:
@@ -114,10 +120,21 @@ class MainCommandLine(cmd.Cmd):
             super().do_help(line)
             
             
+    def help_commands(self):
+        print("Show available commands")
+        print("Example: commands")
+        print("setiface - Changes MAC, and WiFi-Ifaces Name ")
+        
+        
+        
     def help_print(self):
         """Print help"""
         print("Print help")
-        print("Example: print <message>")
+        print("Example: p <color-code> <message>")
+        print("Print help")
+        # for line in color_map:
+        #     print(line)
+        p_help()
 
 
 def loop():

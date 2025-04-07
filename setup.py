@@ -2,7 +2,7 @@
 import codecs
 from setuptools import setup, find_packages
 
-ZEROZHELL_VERSION = "4.0.4"
+ZEROZHELL_VERSION = "0.0.1"
 ZEROZHELL_DOWNLOAD = ('https://github.com/zerozhell/zerozhell/tarball/' + ZEROZHELL_VERSION)
 
 
@@ -40,7 +40,7 @@ setup(
           ],
       },
 
-	version=zerozhell_VERSION,
+	version=ZEROZHELL_VERSION,
 	description='ZeroZhell is a high level MITM framework',
 	long_description=read_file('README.md'),
 	long_description_content_type='text/markdown',
@@ -55,7 +55,7 @@ setup(
 	author='Fardin Allahverdinazhand',
 	author_email='0x0ptim0us@gmail.com',
 	url='https://github.com/zerozhell/zerozhell',
-	download_url=zerozhell_DOWNLOAD,
+	download_url=ZEROZHELL_DOWNLOAD,
 	keywords=['python3', 'zerozhell', 'wsf', 'MITM', 'wifi', 'arp spoof'],
 	classifiers=[
 		'Intended Audience :: Developers',

@@ -58,3 +58,14 @@ scripts
 setup.py
 @WEBSITE
 zerozhell
+build
+constraints.txt
+files.list
+LICENSE.txt
+MAINFEST.in
+README.md
+requirements.txt
+setup.py
+@website
+zerozhell
+zerozhell.egg-info

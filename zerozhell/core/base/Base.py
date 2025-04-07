@@ -18,17 +18,20 @@ class Module(cmd.Cmd):
  
 
 
-    def do_execute(self):
+    def do_run(self):
         """Execute current module"""
         pass
+    
 
     def do_back(self, *args):
         """go back one level"""
         return True
+    
 
     def do_exit(self, line):
         """exit websploit"""
         sys.exit(0)
+        
 
     def do_set(self, line):
         """set options"""
@@ -43,6 +46,7 @@ class Module(cmd.Cmd):
             print(f"*** Example : set host 127.0.0.1")
 
 
+
     def do_options(self, line):
         """Show options of current module"""
         print("\n")
@@ -51,6 +55,8 @@ class Module(cmd.Cmd):
         for k,v in self.parameters.items():
             print(f"{k:20}\t{v:20}")
         print("\n")
+        
+        
 
     def complete_set(self, text, line, begidx, endidx):
         mline = line.partition(' ')[2]
