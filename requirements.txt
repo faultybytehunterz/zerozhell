@@ -3,3 +3,4 @@ requests
 scapy
 scrapy
 beautifulsoup4
+wifi

@@ -26,4 +26,9 @@ zerozhell/mods/arp_scan.py
 zerozhell/mods/arp_spoof.py
 zerozhell/mods/http_sniffer.py
 zerozhell/mods/netmon.py
+zerozhell/mods/ping.py
+zerozhell/mods/port_scan.py
+zerozhell/mods/scan_header.py
 zerozhell/mods/scan_wifi.py
+zerozhell/mods/trace.py
+zerozhell/mods/wlan_scan.py

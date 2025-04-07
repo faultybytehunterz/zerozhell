@@ -7,7 +7,8 @@ def check_dependencies():
     """Check system befor starting core"""
     modules = [
         'scapy',
-        'requests'
+        'requests',
+        'wifi'
     ]
 
     not_installed_modules = []

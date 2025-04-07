@@ -13,7 +13,7 @@ class Main(base.Module):
     }
     completions = list(parameters.keys())
 
-    def do_execute(self, line):
+    def do_run(self, line):
         """Execute current module"""
         try:
             print(f"{'SSID':<30}\t{'BSSID':^18}\t{'CHANNEL':^9}\t{'SIGNAL':^9}\t{'BARS':^8}\t{'SECURITY':^18}")
