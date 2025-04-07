@@ -1,0 +1,2 @@
+[console_scripts]
+zerozhell = zerozhell.zerozhell:loop

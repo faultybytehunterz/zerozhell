@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: zerozhell
+Version: 0.0.1
+Summary: ZeroZhell is a high level MITM framework
+Home-page: https://github.com/zerozhell/zerozhell
+Download-URL: https://github.com/zerozhell/zerozhell/tarball/0.0.1
+Author: Fardin Allahverdinazhand
+Author-email: 0x0ptim0us@gmail.com
+License: MIT
+Keywords: python3,zerozhell,wsf,MITM,wifi,arp spoof
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ZEROZHELL COMMANDLINE # zerozhell
+# zerozhell
